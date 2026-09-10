@@ -1,3 +1,3 @@
-# DocumentManager on Kotlin, Postrgress and H2
+# DocumentManager
 
 > An awesome project.

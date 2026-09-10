@@ -7,20 +7,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@5/dist/themes/core.min.css">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@5/dist/themes/addons/vue.min.css">
+  <link
+          rel="stylesheet"
+          href="//cdn.jsdelivr.net/npm/prism-themes@1/themes/prism-one-light.min.css"
+  />
 </head>
-<body>
+<body class="sidebar-toggle-chevron">
 <div id="app"></div>
 <script>
   window.$docsify = {
     name: 'DocumentManager',
-    repo: 'VolanDeMor1/DocumentManagerDocs',
     auto2top: true,
     loadSidebar: true,
-    autoHeader: true,
     formatUpdated: '{DD}.{MM}.{YYYY} {HH}:{mm}',
   }
 </script>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&family=Noto+Sans+Mono:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+  :root {
+    --font-family      : 'Noto Sans', sans-serif;
+    --font-family-emoji: 'Noto Color Emoji', sans-serif;
+    --font-family-mono : 'Noto Sans Mono', monospace;
+  }
+</style>
+
 <!-- Docsify resource -->
 <script src="//cdn.jsdelivr.net/npm/docsify@5"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs@1.30.0/components/prism-java.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs@1.30.0/components/prism-kotlin.min.js"></script>
+
 </body>
 </html>
