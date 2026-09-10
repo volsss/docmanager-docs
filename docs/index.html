@@ -21,6 +21,11 @@
     loadSidebar: true,
     subMaxLevel: 2,
     formatUpdated: '{DD}.{MM}.{YYYY} {HH}:{mm}',
+    search: {
+      placeholder: 'Поиск',
+      noData: 'Ничего не найдено',
+      depth: 2,
+    },
   }
 </script>
 
@@ -34,10 +39,7 @@
   }
 </style>
 
-<!-- Docsify resource -->
 <script src="//cdn.jsdelivr.net/npm/docsify@5"></script>
-<script src="//cdn.jsdelivr.net/npm/prismjs@1.30.0/components/prism-java.min.js"></script>
-<script src="//cdn.jsdelivr.net/npm/prismjs@1.30.0/components/prism-kotlin.min.js"></script>
-
+<script src="//cdn.jsdelivr.net/npm/docsify@5/dist/plugins/search.min.js"></script>
 </body>
 </html>
