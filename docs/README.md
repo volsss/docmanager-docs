@@ -1,3 +1,3 @@
-# DocumentManager
+# DocManager
 
 > An awesome project.

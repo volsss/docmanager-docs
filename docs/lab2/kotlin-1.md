@@ -1,16 +1,6 @@
-# Лабораторная работа 2:<br/>Знакомство с Kotlin
+# Теория Kotlin: Часть 1
 
-Для изучения синтаксиса языка и его возможностей, можно воспользоваться 
-онлайн-компилятором [Kotlin Playground](https://play.kotlinlang.org/).
-Но он не поддерживает интерактивную консоль, поэтому ввод данных ограничен.
-
-> В методичке все фрагменты кодов будут даваться в виде "песочницы", чтобы 
-> их можно было сразу запустить, посмотреть результат и редактировать.
-
-> **Совет!** Пробуйте, меняйте переменные и код, так вы быстрее разберётесь с языком.
-
-Пример "Hello world" в **Kotlin**:
-<iframe src="https://pl.kotl.in/caPUI4rSz?from=1&to=9"></iframe>
+<iframe src="https://pl.kotl.in/caPUI4rSz" height=256></iframe>
 
 `fun main()` - точка входа в программу, аналог `public static void 
 main(String[] args)` в **Java**.
@@ -170,14 +160,14 @@ escape-последовательности (`\n`, `\t` и т.д.).
 
 Используется ключевое слово `throw`:
 
-<iframe src="https://pl.kotl.in/L7BH5gNrG"></iframe>
+<iframe src="https://pl.kotl.in/L7BH5gNrG" height="280"></iframe>
 
 ### Обработка исключений 
 
 Конструкция `try-catch-finally` аналогична **Java**, но блок `try` также
 является выражением, возвращающим значение: 
 
-<iframe src="https://pl.kotl.in/wFzILxHtw"></iframe>
+<iframe src="https://pl.kotl.in/wFzILxHtw" height="350"></iframe>
 
 Блок `finally` выполняется всегда, независимо от того, произошло ли
 исключение. Вложенные блоки и множественные ветки `catch` работают по
@@ -187,7 +177,4 @@ escape-последовательности (`\n`, `\t` и т.д.).
 
 Очень просто — достаточно унаследовать класс от `Exception`:
 
-<iframe src="https://pl.kotl.in/V12f3xFwO"></iframe>
-
-## Практическое задание
-
+<iframe src="https://pl.kotl.in/V12f3xFwO" height="300"></iframe>
