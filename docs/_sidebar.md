@@ -4,7 +4,7 @@
 
 - Лабораторная работа 1
     - [Начало](lab1/index.md)
-    - [Выбор и установка IDE](lab1/getting-started.md)
+    - [Установка IDE](lab1/getting-started.md)
     - [Настройка IDE и плагинов](lab1/install-plugins.md)
     - [Практическое задание 1](lab1/practice.md)
 
@@ -16,3 +16,5 @@
 - Лабораторная работа 3
     - [Начало](lab3/index.md)
     - [Практическое задание 3](lab3/practice.md)
+
+* [GitHub](https://github.com/volsss/docmanager-guide)

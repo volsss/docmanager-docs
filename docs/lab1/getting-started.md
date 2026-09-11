@@ -1,4 +1,4 @@
-# Выбор и установка IDE
+# Установка IDE
 
 **Kotlin Multiplatform** полностью поддерживается в **IntelliJ IDEA** и **Android Studio**.
 Для работы с плагинами, необходимыми для Kotlin Multiplatform, требуется как минимум
